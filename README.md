@@ -1,6 +1,6 @@
 # Study Buddy
 
-Study Buddy is a lightweight, personalized Chrome extension designed to help you study by visually analyzing questions on your screen and providing instant answers and step-by-step explanations. 
+Study Buddy is a lightweight Chrome extension designed to help you study by visually analyzing questions on your screen and providing instant answers and step-by-step explanations. 
 
 Powered by the **Google Gemini 2.5 Flash API**, this extension captures your current active tab, extracts the question using advanced multimodal AI, and formats the response into a clean, easy-to-read, tabbed interface.
 
