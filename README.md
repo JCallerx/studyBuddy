@@ -20,7 +20,7 @@ Since this is an unpacked Chrome Extension, you'll need to load it directly into
 
 1. **Clone the repository:**
    ```bash
-   git clone <https://github.com/JCallerx/studyBuddy.git>
+   git clone https://github.com/JCallerx/studyBuddy.git
    ```
 
 2. Open Chrome Extensions:
