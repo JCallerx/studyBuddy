@@ -23,51 +23,49 @@ Since this is an unpacked Chrome Extension, you'll need to load it directly into
    git clone <https://github.com/JCallerx/studyBuddy.git>
    ```
 
-Open Chrome Extensions:
+2. Open Chrome Extensions:
 
-Open Google Chrome.
+- Open Google Chrome.
 
-Type chrome://extensions/ in the URL bar and press Enter.
+- Type chrome://extensions/ in the URL bar and press Enter.
 
-Enable Developer Mode:
+3. Enable Developer Mode:
 
-In the top right corner of the Extensions page, toggle Developer mode to ON.
+- In the top right corner of the Extensions page, toggle Developer mode to ON.
 
-Load the Extension:
+4. Load the Extension:
 
-Click the Load unpacked button that appears in the top left.
+- Click the Load unpacked button that appears in the top left.
 
-Select the folder where you cloned or extracted the project.
+- Select the folder where you cloned or extracted the project.
 
-Pin the Extension (Optional):
+5. Pin the Extension (Optional):
 
-Click the puzzle piece icon in your Chrome toolbar and pin "Carla's Study Buddy" for easy access.
+- Click the puzzle piece icon in your Chrome toolbar and pin "Carla's Study Buddy" for easy access.
 
-Usage & Configuration
-Set your API Key:
+## Usage & Configuration
+1. Set your API Key:
+   
+- Click the ⚙️ Settings button.
 
-Open the extension by clicking its icon.
+- Paste your Gemini API Key into the input field and click Save Key. (This key is stored securely in your local browser storage).
 
-Click the ⚙️ Settings button.
+2. Solve a Question:
 
-Paste your Gemini API Key into the input field and click Save Key. (This key is stored securely in your local browser storage).
+- Navigate to a webpage containing a question you want to solve.
 
-Solve a Question:
+- Open the extension and click Solve Question.
 
-Navigate to a webpage containing a question you want to solve.
+- Wait a few moments while the AI analyzes the screen.
 
-Open the extension and click Solve Question.
+- View the result in the Answer and Explanation tabs!
 
-Wait a few moments while the AI analyzes the screen.
+## Files Structure
+- manifest.json: Configuration, metadata, and permissions for the Chrome Extension.
 
-View the result in the Answer and Explanation tabs!
+- popup.html: The user interface and inline CSS styling for the extension.
 
-Files Structure
-manifest.json: Configuration, metadata, and permissions for the Chrome Extension.
+- popup.js: The core logic handling screen capture, API calls to Gemini, UI tab switching, and local storage.
 
-popup.html: The user interface and inline CSS styling for the extension.
-
-popup.js: The core logic handling screen capture, API calls to Gemini, UI tab switching, and local storage.
-
-Privacy
+## Privacy
 This extension takes a screenshot of your active tab only when you explicitly click the "Solve Question" button. The image is sent securely to the Google Gemini API for processing and is not stored externally. Your API key is saved locally on your device within your Chrome profile.
